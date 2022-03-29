@@ -1,0 +1,12 @@
+:root{
+    --color-lightgray: #9c9c9c;
+    --color-blue: #6a83fb;
+    --font-size-medium: 16px;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}

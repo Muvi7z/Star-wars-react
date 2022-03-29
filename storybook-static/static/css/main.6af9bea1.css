@@ -1,0 +1,53 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #9c9c9c;
+}
+.UiButton_button__75yso{
+    padding: 10px 20px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background: none;
+    outline: none;
+    transition: .4s;
+    cursor: pointer;
+    min-width: 100px;
+}
+.UiButton_button__75yso:disabled,
+.UiButton_button__75yso:disabled:hover {
+    color: #9c9c9c;
+    color: var(--color-gray);
+    border: 1px solid #9c9c9c;
+    border: 1px solid var(--color-gray);
+    cursor:auto;
+    background-color: transparent;
+}
+.UiButton_dark__pXQbo{
+    border: 1px solid #fff;
+    border: 1px solid var(--color-white);
+    color: #fff;
+    color: var(--color-white);
+}
+.UiButton_dark__pXQbo:hover{
+    color: #000;
+    color: var(--color-black);
+    background-color: #fff;
+    background-color: var(--color-white);
+}
+.UiButton_light__cDjzL{
+    border: 1px solid #000;
+    border: 1px solid var(--color-black);
+    color: #000;
+    color: var(--color-black);
+}
+.UiButton_light__cDjzL:hover{
+    color: #fff;
+    color: var(--color-white);
+    background-color: #000;
+    background-color: var(--color-black);
+}
+
+/*# sourceMappingURL=main.6af9bea1.css.map*/
